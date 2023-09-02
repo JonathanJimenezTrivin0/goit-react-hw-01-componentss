@@ -1,0 +1,43 @@
+.transaction {
+  margin: 30px auto;
+  width: 600px;
+  border-radius: 5px;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0px 2px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+}
+.table__title {
+  background-color: #02bdd5;
+}
+
+.table {
+  font-size: 12px;
+  height: 40px;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.tbody {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
+  color: rgb(82, 78, 78);
+}
+
+.td {
+  width: 166px;
+}
+
+.td:nth-child(1) {
+  text-align: flex;
+}
+
+.tr:nth-child(2n) {
+  height: 40px;
+  background-color: #ecf1f3;
+}
+
+.tr:nth-child(2n + 1) {
+  height: 40px;
+}
